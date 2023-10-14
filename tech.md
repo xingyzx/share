@@ -6,6 +6,8 @@
 在模型的微调上，通过直接将第四卷积层的输出映射到密度图来分别预训练每一列的CNN。使用这些预训练的CNN初始化所有列中的 CNN，并同时微调所有参数。
 
 [论文](https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_Single-Image_Crowd_Counting_CVPR_2016_paper.pdf)
+
+
 ![Alt text](<截屏2023-10-14 17.01.58.png>)
 ![Alt text](<截屏2023-10-14 16.56.45.png>)
 ![Alt text](<截屏2023-10-14 16.56.57.png>)
